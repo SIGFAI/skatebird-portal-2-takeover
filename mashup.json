@@ -1,0 +1,149 @@
+{
+  "id": "sigf/skatebird-portal-2-takeover",
+  "version": "1.0.0",
+  "name": "Portal 2 Takeover",
+  "tagline": "Bring Portal 2 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "skatebird",
+      "role": "host",
+      "engine": "SkateBIRD (itch build, Unity 2019.4.20f1 Mono, 64-bit, game exe SkateBIRD.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "portal2",
+      "role": "guest",
+      "label": "Portal 2"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "skatebird",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "skatebird-portal-2-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/cake_chime.wav",
+              "sha256": "653bf2f75ebe05c370b5bc3b05b04f896bcabe48d680201aefcff50da7797fe8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/cube_hit.wav",
+              "sha256": "9ed281caef72fdd4771ad896090787a68aee3eb02d3de220558f17385af4d2a1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/cube.png",
+              "sha256": "2e6db975cbc45a5098b29b326556fa3016db83035183915a66763a7ce441ee7b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glados1.wav",
+              "sha256": "27420c38b59cbdf79094c8a4dd34a6f19e6289d0f0fdc6b40a93345cca318bed"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glados2.wav",
+              "sha256": "4c4145b28fa7b18b9d64652acab70368376cee609dcc867e0dd76de07c2e9467"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glados3.wav",
+              "sha256": "22270b726b3e1f4793efacd5055005cdd35668425226fcdcd962210e4d17034a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glados4.wav",
+              "sha256": "8cac4b66c3b00cb089d7aad60e2b766ee2dbf51ed94e202bc53a0f30d507df82"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glados5.wav",
+              "sha256": "c9747deaed66a123a3f2998d7c68297b2a4e5e860737fd898829c2e598c5b68c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/panel.png",
+              "sha256": "7d5407ef258200eb95d30a07338c2b3f74a85a53ee08fea59511817372dc2c9b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/portal_blue.png",
+              "sha256": "bfbb94347955f0143729342a1137d55cd34bfbb2909b3505dda95da6bb00b45b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/portal_orange.png",
+              "sha256": "7b688753568d94c8247650de35032ea82d09cce3154f08491d43322a7404ed8e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/portal_pass.wav",
+              "sha256": "395c11728bd7f02bc07d250f09cd397329ba48019e02fef4453e24be07ae66c7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/portal_shot.wav",
+              "sha256": "b8770a08d9102ef919e50dc347d1bf6f70c595dd06da97c271cc2aae016cc342"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/turret_down.wav",
+              "sha256": "800c912b794469bf152615e78398b564d2b167be7376f303615b1ea92c3328e2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/turret_ping.wav",
+              "sha256": "26a647d423cc7b0ee93321e358cf1c8da1c48a739fa4798b75d340a126dca80c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/turret1.wav",
+              "sha256": "8eb51e1e2d227b7575ad081899a3f5090e9c516830cf05cd3fa9671ce0582fe0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "05daa531f70c83e65f3b4a78fbe7d292087e84db2c4b628e6170af4af0767493"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "5b1c6c979e71eca231027804a2494f8c205afc276f85f829fbcf43d058586f6f"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/skatebird-portal-2-takeover/releases/download/v1.0.0/skatebird-portal-2-takeover.zip",
+          "sha256": "ce332d640d0cbe1211fbac38591b5879e66a963f7a57fddcd5a5c9818dadcf5f",
+          "size": 4501034
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "skatebird",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "skatebird-portal-2-takeover.zip",
+      "url": "https://github.com/SIGFAI/skatebird-portal-2-takeover/releases/download/v1.0.0/skatebird-portal-2-takeover.zip",
+      "sha256": "ce332d640d0cbe1211fbac38591b5879e66a963f7a57fddcd5a5c9818dadcf5f",
+      "size": 4501034
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/skatebird-portal-2-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-05f32d28.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "skatebird",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T17:05:55.471Z",
+  "notes": [
+    "Copy the release folder's BepInEx folder into your SkateBIRD folder (BepInEx 5 must be installed), then start the game. Press Q for a blue portal and E for an orange one, ride through, smash the turrets and grab the cake."
+  ]
+}
