@@ -1,0 +1,1 @@
+Copy the release folder's BepInEx folder into your SkateBIRD folder (BepInEx 5 must be installed), then start the game. Press Q for a blue portal and E for an orange one, ride through, smash the turrets and grab the cake.

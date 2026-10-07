@@ -1,0 +1,6 @@
+Clip moments (tick only if seen in the recorded demo):
+[x] 1. The whole playground turns into a white test chamber; the bird fires a blue bolt and an orange bolt and two portals open on two walls (title + core + voice caption).
+[x] 2. The companion cube is kicked into the blue portal and comes out of the orange one at the same speed, then hits a turret (flash, sparks).
+[x] 3. The bird rides over orange gel (speed boost), into the blue portal, and shoots out of the orange one with its speed kept, plowing into the turrets.
+[x] 4. Turrets fall over with sparks, the cake appears under a light beam, the bird grabs it: "THE CAKE IS A LIE".
+Weak: the camera swings after a portal exit (hidden by a color flash); the bird sometimes bails during victory tricks.
